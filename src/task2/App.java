@@ -15,7 +15,7 @@ public class App {
         Human h5 = new Human("Ekaterina", "Petrovna", LocalDate.now().minusYears(21).minusDays(22), 60);
 
         Stream<Human> stream = Stream.of(h1, h2, h3, h4, h5);
-        
+
 
     }
 }

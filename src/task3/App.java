@@ -1,8 +1,9 @@
 package task3;
 
+import java.util.HashSet;
+
 public class App {
-    public static void main(String[] args) {
-        int n = 10;
+    public static void testingMap(int n) {
         MapSemaphore<Integer, Integer> map = new MapSemaphore<>();
 
         Thread threadOne = new Thread(() -> {
@@ -31,5 +32,24 @@ public class App {
 
         threadTwo.start();
         threadFour.start();
+    }
+
+    public static void testingSet(int n){
+        SetLock<String> sets = new HashSet<>();
+        Thread threadOne = new Thread(() -> {
+            for (int i = 0; i < n; i++) {
+                sets.add(Str);
+            }
+        });
+        Thread threadTwo = new Thread(() -> {
+            for (int i = 0; i < n; i++) {
+                sets.add("world");
+            }
+        });
+    }
+
+    public static void main(String[] args) {
+        testingSet(10);
+        testingMap(10);
     }
 }

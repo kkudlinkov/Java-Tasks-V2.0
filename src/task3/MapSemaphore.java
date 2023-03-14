@@ -15,9 +15,9 @@ public class MapSemaphore<K, V> {
 
     public void put(K key, V elem) {
         try {
-            semaphore.acquire();
+            semaphore.acquire(); // Получение раз
             map.put(key, elem);
-            semaphore.release();
+            semaphore.release(); // Освобождаем разрешение
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

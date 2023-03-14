@@ -1,14 +1,12 @@
 package task3;
 
-import java.sql.Array;
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-public class SetLock<E> {
+public class SetLok<E> {
     public static final Lock lock = new ReentrantLock();
     public Set<String> sets = new HashSet<>();
 

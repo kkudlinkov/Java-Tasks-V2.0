@@ -1,16 +1,14 @@
 package task3;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Set;
 import java.util.concurrent.Semaphore;
 
-public class MapSemaphore<K, V> {
+public class MapSemaphor<K, V> {
     private final Semaphore semaphore = new Semaphore(1);
     private Map<K, V> map = new HashMap<>();
 
-    public MapSemaphore() {
+    public MapSemaphor() {
     }
 
     public void put(K key, V elem) {

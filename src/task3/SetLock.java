@@ -12,19 +12,24 @@ public class SetLock<E> {
     public static final Lock lock = new ReentrantLock();
     public Set<String> sets = new HashSet<>();
 
-    public void add (String num){
+     public void add(String num) {
         lock.lock();
         try {
             sets.add(num);
-        }finally {
+        } finally {
             lock.unlock();
         }
     }
 
-    public void check(){
+    public void check() {
         System.out.println("Iterating over list:");
         Iterator<String> i = sets.iterator();
         while (i.hasNext())
             System.out.println(i.next());
+    }
+
+    @Override
+    public String toString() {
+        return sets.toString();
     }
 }

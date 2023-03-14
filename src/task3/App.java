@@ -34,11 +34,11 @@ public class App {
         threadFour.start();
     }
 
-    public static void testingSet(int n){
-        SetLock<String> sets = new HashSet<>();
+    public static void testingSet(int n) {
+        SetLock<String> sets = new SetLock<>();
         Thread threadOne = new Thread(() -> {
             for (int i = 0; i < n; i++) {
-                sets.add(Str);
+                sets.add(String.valueOf(i));
             }
         });
         Thread threadTwo = new Thread(() -> {
@@ -46,10 +46,21 @@ public class App {
                 sets.add("world");
             }
         });
+
+        Thread threadThree = new Thread(() -> {
+            for (int i = 0; i < n; i++) {
+                System.out.println(sets.toString());
+            }
+        });
+        threadOne.start();
+        threadThree.start();
+        threadTwo.start();
+
+
     }
 
     public static void main(String[] args) {
         testingSet(10);
-        testingMap(10);
+//        testingMap(10);
     }
 }

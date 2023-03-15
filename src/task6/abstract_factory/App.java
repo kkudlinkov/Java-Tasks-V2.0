@@ -14,7 +14,7 @@ public class App {
     }
 
     public static void main(String[] args) {
-        DeviceFactory deviceFactory = getFactoryByCompanyName("Logitech");
+        DeviceFactory deviceFactory = getFactoryByCompanyName("Bloody");
 
         Mouse mouse = deviceFactory.getMouse();
         Keyboard keyboard = deviceFactory.getKeyboard();

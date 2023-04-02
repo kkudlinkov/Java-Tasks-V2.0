@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.example'
+version = '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jar {
+    manifest {
+        attributes 'Main-Class': 'org.example.Main'
+    }
+}
+
+task copyJarFile(type: Copy){
+    copyJarFile.dependsOn jar
+    from jar
+    into file ("$rootDir/src/main/resources/")
+    finalizedBy "InitialDocker"
+}
+
+task buildDockerImage(type: Exec) {
+    commandLine 'docker', 'build', '-t', 'task9-1.0', "$rootDir/src/main/resources/"
+}
+
+task InitialDocker(type: Exec) {
+    InitialDocker.dependsOn buildDockerImage
+    commandLine 'docker', 'run', '--name', 'task9-1.0', 'task9-1.0'
+    finalizedBy 'removeContainer'
+}
+
+task removeContainer(type: Exec) {
+    finalizedBy 'removeImage'
+    commandLine 'docker', 'container', 'rm', 'task9-1.0'
+}
+
+task removeImage(type: Exec) {
+    commandLine 'docker', 'image', 'rm', 'task9-1.0'
+}

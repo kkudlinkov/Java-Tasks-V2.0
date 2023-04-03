@@ -1,31 +1,30 @@
-package com.example.task15.controller;
+package com.example.task14.controller;
 
-import com.example.task15.model.User;
+import com.example.task14.model.User;
+import com.example.task14.repository.UserRepository;
+import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController
 @RequestMapping("/user")
+@RequiredArgsConstructor
 public class UserController {
-    private final List<User> users = new ArrayList<>();
+    private final UserRepository userRepository;
 
     @PostMapping
     public User createUser(@RequestBody User user){
-        users.add(user);
-        return user;
+        return userRepository.save(user);
     }
 
     @GetMapping
     public List<User> getAllUsers(){
-        return users;
+        return userRepository.findAll();
     }
 
     @DeleteMapping("/{id}")
     public void deleteUser(@PathVariable int id){
-        if (id < users.size()){
-            users.remove(id);
-        }
+        userRepository.deleteById(id);
     }
 }

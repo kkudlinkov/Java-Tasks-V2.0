@@ -1,11 +1,11 @@
-package com.example.task15.model;
+package com.example.task14.model;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.*;
 import java.time.LocalDate;
 
 @Getter
@@ -32,3 +32,4 @@ public class User {
     @Column(name = "birth_date")
     private LocalDate birthDate;
 }
+

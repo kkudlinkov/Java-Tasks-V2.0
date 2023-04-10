@@ -2,64 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3914d02c-5ec1-4521-85c5-25d3add1fad6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task11/src/main/java/com/example/task11/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/Task14Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/controller/PostsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/PostFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/PostFilterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/UserFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/UserFilterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task17/src/test/java/com/example/task14/Task14ApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/Task14Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/controller/PostsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/PostFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/PostFilterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/PostRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/UserFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/UserFilterImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task18-19/src/test/java/com/example/task14/Task14ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/task4/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/task4/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/task6/abstract_factory/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/task6/abstract_factory/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task11/src/main/java/com/example/task11/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task11/src/main/java/com/example/task11/TestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task12/output.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task14/src/main/java/com/example/task14/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14/src/main/java/com/example/task14/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task14/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/task14/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task16/src/main/java/com/example/task14/controller/PostsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task16/src/main/java/com/example/task14/controller/PostsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task16/src/main/java/com/example/task14/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/task16/src/main/java/com/example/task14/model/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task9/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/task9/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/application.2023-0408.gz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/Task14Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/config/TimeAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/controller/PostsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/repository/PostFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/repository/PostFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/repository/UserFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/repository/UserFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/service/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/service/UserPostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/java/com/example/task14/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task22/src/test/java/com/example/task14/Task14ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task20-21/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/task20-21/application.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,13 +56,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/дом/IdeaProjects/Java-Tasks-V2.0/task-9-24/task18-19",
+    "last_opened_file_path": "C:/Users/kkudl/IdeaProjects/Java-Tastks/task-9-24/task22",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24" />
       <recent name="C:\Users\дом\IdeaProjects\Java-Tasks-V2.0\task-9-24" />
     </key>
   </component>
@@ -102,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1680968424496</updated>
       <workItem from="1680968428128" duration="238000" />
+      <workItem from="1681156346558" duration="28000" />
     </task>
     <servers />
   </component>

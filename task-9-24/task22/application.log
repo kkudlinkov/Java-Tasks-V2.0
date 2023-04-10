@@ -1,0 +1,226 @@
+1836831 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+1836839 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl – HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+1836853 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+1836864 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+650  [main] INFO  c.example.task14.Task14Application – Starting Task14Application using Java 19.0.1 with PID 11848 (C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24\task22\target\classes started by kkudl in C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24\task22)
+656  [main] INFO  c.example.task14.Task14Application – No active profile set, falling back to 1 default profile: "default"
+1596 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1662 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2176 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2184 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2185 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2185 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.7]
+2265 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2266 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1557 ms
+2509 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2567 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+2830 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2996 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@73a49597
+2998 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3020 [main] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+3022 [main] WARN  org.hibernate.orm.deprecation – HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+3843 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+3844 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – отношение "post" не существует, пропускается
+3844 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+3844 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "post" не существует, пропускается
+3845 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+3845 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "users" не существует, пропускается
+3873 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3881 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4318 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4440 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page: class path resource [static/index.html]
+4759 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4823 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+4839 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+4853 [main] INFO  c.example.task14.Task14Application – Started Task14Application in 4.578 seconds (process running for 5.23)
+5402 [RMI TCP Connection(2)-192.168.0.27] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5403 [RMI TCP Connection(2)-192.168.0.27] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5404 [RMI TCP Connection(2)-192.168.0.27] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 1 ms
+17392 [http-nio-8080-exec-1] INFO  c.e.task14.service.PostService – Save Post, Post{id=0, text='Some text here', creationDate=2003-03-07}
+17399 [http-nio-8080-exec-1] INFO  c.e.task14.service.EmailService – Email send to kkudlinkov@mail.ru, with subject Post saved, and text Post saved Post{id=0, text='Some text here', creationDate=2003-03-07}, from mrfanman@mail.ru
+17399 [http-nio-8080-exec-1] INFO  c.example.task14.config.TimeAspect – Method: sendEmail from EmailService, Time: 0 ms
+17442 [http-nio-8080-exec-1] INFO  c.example.task14.config.TimeAspect – Method: save from PostService, Time: 50 ms
+18182 [http-nio-8080-exec-2] INFO  c.e.task14.service.PostService – Save Post, Post{id=0, text='Some text here', creationDate=2003-03-07}
+18183 [http-nio-8080-exec-2] INFO  c.e.task14.service.EmailService – Email send to kkudlinkov@mail.ru, with subject Post saved, and text Post saved Post{id=0, text='Some text here', creationDate=2003-03-07}, from mrfanman@mail.ru
+18183 [http-nio-8080-exec-2] INFO  c.example.task14.config.TimeAspect – Method: sendEmail from EmailService, Time: 0 ms
+18184 [http-nio-8080-exec-2] INFO  c.example.task14.config.TimeAspect – Method: save from PostService, Time: 2 ms
+19640 [http-nio-8080-exec-3] INFO  c.e.task14.service.UserService – Saving user: User{id=0, firstName='Nikolay', lastName='Kudlinkov', middleName='Sergeevich', birthDate=2003-03-07}
+19641 [http-nio-8080-exec-3] INFO  c.e.task14.service.EmailService – Email send to kkudlinkov@mail.ru, with subject User saved, and text User saved User{id=0, firstName='Nikolay', lastName='Kudlinkov', middleName='Sergeevich', birthDate=2003-03-07}, from mrfanman@mail.ru
+19642 [http-nio-8080-exec-3] INFO  c.example.task14.config.TimeAspect – Method: sendEmail from EmailService, Time: 1 ms
+19645 [http-nio-8080-exec-3] INFO  c.example.task14.config.TimeAspect – Method: save from UserService, Time: 5 ms
+20300 [http-nio-8080-exec-4] INFO  c.e.task14.service.UserService – Saving user: User{id=0, firstName='Nikolay', lastName='Kudlinkov', middleName='Sergeevich', birthDate=2003-03-07}
+20300 [http-nio-8080-exec-4] INFO  c.e.task14.service.EmailService – Email send to kkudlinkov@mail.ru, with subject User saved, and text User saved User{id=0, firstName='Nikolay', lastName='Kudlinkov', middleName='Sergeevich', birthDate=2003-03-07}, from mrfanman@mail.ru
+20300 [http-nio-8080-exec-4] INFO  c.example.task14.config.TimeAspect – Method: sendEmail from EmailService, Time: 0 ms
+20301 [http-nio-8080-exec-4] INFO  c.example.task14.config.TimeAspect – Method: save from UserService, Time: 1 ms
+21656 [http-nio-8080-exec-5] INFO  c.e.task14.service.PostService – Find All
+21769 [http-nio-8080-exec-5] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 113 ms
+23426 [http-nio-8080-exec-6] INFO  c.e.task14.service.UserService – Finding all users
+23437 [http-nio-8080-exec-6] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 11 ms
+52659 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+52660 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+52662 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 2 ms
+52664 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+52666 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 2 ms
+52667 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 8 ms
+112660 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+112661 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+112663 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 2 ms
+112664 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+112666 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 2 ms
+112667 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 7 ms
+160004 [http-nio-8080-exec-8] INFO  c.e.task14.service.UserService – Finding all users
+160005 [http-nio-8080-exec-8] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 1 ms
+172659 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+172663 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+172668 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 5 ms
+172671 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+172673 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 2 ms
+172675 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 16 ms
+230587 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+230588 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl – HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+230599 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+230606 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+1016 [main] INFO  c.example.task14.Task14Application – Starting Task14Application using Java 19.0.1 with PID 12720 (C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24\task22\target\classes started by kkudl in C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24\task22)
+1019 [main] INFO  c.example.task14.Task14Application – No active profile set, falling back to 1 default profile: "default"
+1878 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1937 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 51 ms. Found 2 JPA repository interfaces.
+2478 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2486 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2487 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2487 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.7]
+2568 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2569 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1501 ms
+2798 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2853 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+3123 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3278 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5eb2972f
+3280 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3298 [main] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+3299 [main] WARN  org.hibernate.orm.deprecation – HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+4052 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+4052 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – отношение "post" не существует, пропускается
+4052 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+4052 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "post" не существует, пропускается
+4053 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+4053 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "users" не существует, пропускается
+4083 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4092 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4440 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4576 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page: class path resource [static/index.html]
+4915 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4975 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+4992 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+5006 [main] INFO  c.example.task14.Task14Application – Started Task14Application in 4.574 seconds (process running for 5.684)
+5379 [RMI TCP Connection(1)-192.168.0.27] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5379 [RMI TCP Connection(1)-192.168.0.27] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5381 [RMI TCP Connection(1)-192.168.0.27] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+17893 [http-nio-8080-exec-1] INFO  c.e.task14.service.UserService – Finding all users
+18017 [http-nio-8080-exec-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 124 ms
+20256 [http-nio-8080-exec-3] INFO  c.e.task14.service.PostService – Find All
+20259 [http-nio-8080-exec-3] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 3 ms
+22760 [http-nio-8080-exec-2] INFO  c.e.task14.service.PostService – Save Post, Post{id=0, text='Some text here', creationDate=2003-03-07}
+22764 [http-nio-8080-exec-2] INFO  c.e.task14.service.EmailService – Email send to kkudlinkov@mail.ru, with subject Post saved, and text Post saved Post{id=0, text='Some text here', creationDate=2003-03-07}, from mrfanman@mail.ru
+22764 [http-nio-8080-exec-2] INFO  c.example.task14.config.TimeAspect – Method: sendEmail from EmailService, Time: 1 ms
+22795 [http-nio-8080-exec-2] INFO  c.example.task14.config.TimeAspect – Method: save from PostService, Time: 35 ms
+24499 [http-nio-8080-exec-4] INFO  c.e.task14.service.PostService – Find All
+24504 [http-nio-8080-exec-4] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 5 ms
+26605 [http-nio-8080-exec-5] INFO  c.e.task14.service.UserService – Saving user: User{id=0, firstName='Nikolay', lastName='Kudlinkov', middleName='Sergeevich', birthDate=2003-03-07}
+26607 [http-nio-8080-exec-5] INFO  c.e.task14.service.EmailService – Email send to kkudlinkov@mail.ru, with subject User saved, and text User saved User{id=0, firstName='Nikolay', lastName='Kudlinkov', middleName='Sergeevich', birthDate=2003-03-07}, from mrfanman@mail.ru
+26607 [http-nio-8080-exec-5] INFO  c.example.task14.config.TimeAspect – Method: sendEmail from EmailService, Time: 0 ms
+26610 [http-nio-8080-exec-5] INFO  c.example.task14.config.TimeAspect – Method: save from UserService, Time: 5 ms
+28613 [http-nio-8080-exec-6] INFO  c.e.task14.service.UserService – Finding all users
+28621 [http-nio-8080-exec-6] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 9 ms
+51208 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+51210 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+51213 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 3 ms
+51215 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+51217 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 2 ms
+51218 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 10 ms
+111208 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+111209 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+111211 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 2 ms
+111212 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+111214 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 2 ms
+111215 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 7 ms
+125482 [http-nio-8080-exec-8] INFO  c.e.task14.service.UserService – Deleting user by id: 1
+125492 [http-nio-8080-exec-8] INFO  c.example.task14.config.TimeAspect – Method: deleteById from UserService, Time: 10 ms
+171209 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+171210 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+171212 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 2 ms
+171213 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+171214 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 1 ms
+171215 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 6 ms
+178545 [http-nio-8080-exec-9] INFO  c.e.task14.service.UserService – Finding all users
+178546 [http-nio-8080-exec-9] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 1 ms
+194563 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+194563 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl – HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+194576 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+194582 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+637  [main] INFO  c.example.task14.Task14Application – Starting Task14Application using Java 19.0.1 with PID 16908 (C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24\task22\target\classes started by kkudl in C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24\task22)
+639  [main] INFO  c.example.task14.Task14Application – No active profile set, falling back to 1 default profile: "default"
+1472 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1527 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 48 ms. Found 2 JPA repository interfaces.
+2027 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2034 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2035 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2035 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.7]
+2112 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2112 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1424 ms
+2336 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2391 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+2640 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+2891 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1fb71788
+2892 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+2910 [main] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2911 [main] WARN  org.hibernate.orm.deprecation – HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+3709 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+3709 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – отношение "post" не существует, пропускается
+3709 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+3709 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "post" не существует, пропускается
+3710 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+3710 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "users" не существует, пропускается
+3737 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+3746 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4085 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4210 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page: class path resource [static/index.html]
+4530 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4588 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+4603 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+4617 [main] INFO  c.example.task14.Task14Application – Started Task14Application in 4.35 seconds (process running for 5.031)
+4855 [RMI TCP Connection(2)-192.168.0.27] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+4855 [RMI TCP Connection(2)-192.168.0.27] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+4859 [RMI TCP Connection(2)-192.168.0.27] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 4 ms
+32418 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+32427 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+32528 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 101 ms
+32530 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+32533 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 3 ms
+32535 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 117 ms
+42515 [http-nio-8080-exec-1] INFO  c.e.task14.service.PostService – Save Post, Post{id=0, text='Some text here', creationDate=2003-03-07}
+42518 [http-nio-8080-exec-1] INFO  c.e.task14.service.EmailService – Email send to kkudlinkov@mail.ru, with subject Post saved, and text Post saved Post{id=0, text='Some text here', creationDate=2003-03-07}, from mrfanman@mail.ru
+42518 [http-nio-8080-exec-1] INFO  c.example.task14.config.TimeAspect – Method: sendEmail from EmailService, Time: 0 ms
+42548 [http-nio-8080-exec-1] INFO  c.example.task14.config.TimeAspect – Method: save from PostService, Time: 33 ms
+44365 [http-nio-8080-exec-3] INFO  c.e.task14.service.UserService – Saving user: User{id=0, firstName='Nikolay', lastName='Kudlinkov', middleName='Sergeevich', birthDate=2003-03-07}
+44368 [http-nio-8080-exec-3] INFO  c.e.task14.service.EmailService – Email send to kkudlinkov@mail.ru, with subject User saved, and text User saved User{id=0, firstName='Nikolay', lastName='Kudlinkov', middleName='Sergeevich', birthDate=2003-03-07}, from mrfanman@mail.ru
+44368 [http-nio-8080-exec-3] INFO  c.example.task14.config.TimeAspect – Method: sendEmail from EmailService, Time: 0 ms
+44371 [http-nio-8080-exec-3] INFO  c.example.task14.config.TimeAspect – Method: save from UserService, Time: 6 ms
+92415 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+92417 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+92435 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 18 ms
+92438 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+92440 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 2 ms
+92441 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 26 ms
+100467 [http-nio-8080-exec-4] INFO  c.e.task14.service.UserService – Deleting user by id: 1
+100479 [http-nio-8080-exec-4] INFO  c.example.task14.config.TimeAspect – Method: deleteById from UserService, Time: 12 ms
+102181 [http-nio-8080-exec-2] INFO  c.e.task14.service.PostService – Delete Post by Id:1
+102183 [http-nio-8080-exec-2] INFO  c.example.task14.config.TimeAspect – Method: deleteById from PostService, Time: 2 ms
+152414 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+152415 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+152417 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 2 ms
+152418 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+152419 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 1 ms
+152420 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 6 ms
+172638 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+172639 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl – HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+172650 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+172657 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

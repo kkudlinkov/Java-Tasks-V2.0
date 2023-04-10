@@ -20,6 +20,7 @@ public class App {
         Keyboard keyboard = deviceFactory.getKeyboard();
 
         mouse.clickLkm();
+        mouse.clickPkm();
         keyboard.clickButton(34);
     }
 }

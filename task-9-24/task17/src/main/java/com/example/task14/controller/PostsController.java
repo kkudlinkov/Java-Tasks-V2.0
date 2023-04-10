@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import java.time.LocalDate;
 import java.util.List;
 
 @RestController
@@ -15,7 +16,6 @@ import java.util.List;
 public class PostsController {
 
     private final PostService postService;
-
 
     @PostMapping
     public Post createPost(@RequestBody Post post) {
@@ -41,5 +41,15 @@ public class PostsController {
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public void removeLevelFromGame(@PathVariable int id) {
         postService.unsetUser(id);
+    }
+
+    @GetMapping("/findByText/{text}")
+    public List<Post> findByText(@PathVariable String text){
+        return postService.findByText(text);
+    }
+
+    @GetMapping("/findByCreationDate/{creationDate}")
+    public List<Post> findByCreationDate(@PathVariable String creationDate){
+        return  postService.findByCreationDate(LocalDate.parse(creationDate));
     }
 }

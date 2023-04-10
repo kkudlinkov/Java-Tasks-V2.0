@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3914d02c-5ec1-4521-85c5-25d3add1fad6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/task11/src/main/java/com/example/task11/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/Task14Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/controller/PostsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/PostFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/PostFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/UserFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/UserFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/java/com/example/task14/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task17/src/test/java/com/example/task14/Task14ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/MvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/Task14Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/controller/PostsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/model/Post.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/PostFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/PostFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/PostRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/UserFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/UserFilterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/service/PostService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/java/com/example/task14/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task18-19/src/test/java/com/example/task14/Task14ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/task4/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/task4/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/task6/abstract_factory/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/task6/abstract_factory/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task11/src/main/java/com/example/task11/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task11/src/main/java/com/example/task11/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task12/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/java/com/example/task14/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task14/src/main/java/com/example/task14/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task14/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/task14/src/main/resources/static/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task16/src/main/java/com/example/task14/controller/PostsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/task16/src/main/java/com/example/task14/controller/PostsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task16/src/main/java/com/example/task14/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/task16/src/main/java/com/example/task14/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task9/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/task9/build.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2O9MbyrUkIPkoJnYq4s433Iptia" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/дом/IdeaProjects/Java-Tasks-V2.0/task-9-24/task18-19",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\дом\IdeaProjects\Java-Tasks-V2.0\task-9-24" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3914d02c-5ec1-4521-85c5-25d3add1fad6" name="Changes" comment="" />
+      <created>1680968424496</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680968424496</updated>
+      <workItem from="1680968428128" duration="238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

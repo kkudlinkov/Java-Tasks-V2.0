@@ -31,4 +31,13 @@ public class Post {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "user_id")
     private User user;
+
+    @Override
+    public String toString() {
+        return "Post{" +
+                "id=" + id +
+                ", text='" + text + '\'' +
+                ", creationDate=" + creationDate +
+                '}';
+    }
 }

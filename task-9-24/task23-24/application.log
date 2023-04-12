@@ -1,0 +1,49 @@
+319  [main] INFO  c.e.task14.service.PostService – Find All
+334  [main] INFO  c.e.task14.service.PostService – Find All
+353  [main] INFO  c.e.task14.service.PostService – Delete Post by Id:1
+368  [main] INFO  c.e.task14.service.PostService – Save Post, Post{id=1, text='Post1', creationDate=2023-04-12}
+287  [main] INFO  c.e.task14.service.PostService – Find All
+294  [main] INFO  c.e.task14.service.PostService – Find All
+312  [main] INFO  c.e.task14.service.PostService – Delete Post by Id:1
+326  [main] INFO  c.e.task14.service.PostService – Save Post, Post{id=1, text='Post1', creationDate=2023-04-12}
+306  [main] INFO  c.e.task14.service.UserService – Finding all users
+315  [main] INFO  c.e.task14.service.UserService – Finding all users
+333  [main] INFO  c.e.task14.service.UserService – Saving user: User{id=1, firstName='Nikolai', lastName='Kudlinkov', middleName='Sergeevich', birthDate=2023-04-12}
+353  [main] INFO  c.e.task14.service.UserService – Deleting user by id: 1
+251  [main] INFO  c.e.task14.service.PostService – Find All
+260  [main] INFO  c.e.task14.service.PostService – Find All
+271  [main] INFO  c.e.task14.service.PostService – Delete Post by Id:1
+283  [main] INFO  c.e.task14.service.PostService – Save Post, Post{id=1, text='Post1', creationDate=2023-04-12}
+372  [main] INFO  c.e.task14.service.UserService – Finding all users
+372  [main] INFO  c.e.task14.service.UserService – Finding all users
+375  [main] INFO  c.e.task14.service.UserService – Saving user: User{id=1, firstName='Nikolai', lastName='Kudlinkov', middleName='Sergeevich', birthDate=2023-04-12}
+382  [main] INFO  c.e.task14.service.UserService – Deleting user by id: 1
+555  [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils – Could not detect default configuration classes for test class [com.example.task14.Task14ApplicationTests]: Task14ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+665  [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper – Found @SpringBootConfiguration com.example.task14.Task14Application for test class com.example.task14.Task14ApplicationTests
+1098 [main] INFO  c.e.task14.Task14ApplicationTests – Starting Task14ApplicationTests using Java 19.0.1 with PID 17096 (started by kkudl in C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24\task23-24)
+1099 [main] INFO  c.e.task14.Task14ApplicationTests – No active profile set, falling back to 1 default profile: "default"
+2126 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2188 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 54 ms. Found 2 JPA repository interfaces.
+2876 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2937 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+3143 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3369 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@177068db
+3372 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3396 [main] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+3399 [main] WARN  org.hibernate.orm.deprecation – HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+4273 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+4273 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – отношение "post" не существует, пропускается
+4275 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+4275 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "post" не существует, пропускается
+4275 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+4276 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "users" не существует, пропускается
+4318 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4327 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+5066 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+5314 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page: class path resource [static/index.html]
+5895 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+5993 [main] INFO  c.e.task14.Task14ApplicationTests – Started Task14ApplicationTests in 5.164 seconds (process running for 7.252)
+6056 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+6057 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl – HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+6070 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+6081 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: root
+  mail:
+    host: smtp.mail.ru
+    username: mrfanman@mail.ru
+    password: KVZSLFcDMDvuw1yXnQgF
+    protocol: smtps
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL95Dialect
+    hibernate:
+      ddl-auto: create-drop
+    generate-ddl: true
+mail:
+  to: kkudlinkov@mail.ru

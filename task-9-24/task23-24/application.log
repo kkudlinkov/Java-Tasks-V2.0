@@ -47,3 +47,156 @@
 6057 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl – HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
 6070 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
 6081 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+676  [main] INFO  c.example.task14.Task14Application – Starting Task14Application using Java 19.0.1 with PID 15548 (C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24\task23-24\target\classes started by kkudl in C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24\task23-24)
+678  [main] INFO  c.example.task14.Task14Application – No active profile set, falling back to 1 default profile: "default"
+1686 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1747 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 55 ms. Found 3 JPA repository interfaces.
+2327 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2335 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2336 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2336 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.7]
+2417 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2418 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1698 ms
+2680 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2729 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+2994 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3153 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6fbc7853
+3154 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3174 [main] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+3175 [main] WARN  org.hibernate.orm.deprecation – HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+3997 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+3997 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – отношение "post" не существует, пропускается
+3998 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+3998 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "clients" не существует, пропускается
+3999 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+3999 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "post" не существует, пропускается
+3999 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+3999 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "users" не существует, пропускается
+4036 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4044 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4486 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4594 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page: class path resource [static/index.html]
+4859 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4911 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2c4eda3a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@466bf366, org.springframework.security.web.context.SecurityContextHolderFilter@55b7f9f1, org.springframework.security.web.header.HeaderWriterFilter@292b7a02, org.springframework.security.web.authentication.logout.LogoutFilter@671561b9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7cd2d3b6, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@53850535, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@28be7db5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@380cd266, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2bef33e7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@700596f9, org.springframework.security.web.access.ExceptionTranslationFilter@5a183fa6, org.springframework.security.web.access.intercept.AuthorizationFilter@3c20abd6]
+5243 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+5259 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+5273 [main] INFO  c.example.task14.Task14Application – Started Task14Application in 4.988 seconds (process running for 5.985)
+5566 [RMI TCP Connection(2)-192.168.0.27] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5566 [RMI TCP Connection(2)-192.168.0.27] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5569 [RMI TCP Connection(2)-192.168.0.27] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+14673 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+14688 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+14793 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 105 ms
+14795 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+14799 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 4 ms
+14801 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 127 ms
+74668 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+74669 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+74670 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 1 ms
+74671 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+74673 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 2 ms
+74673 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 5 ms
+134667 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+134668 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+134670 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 1 ms
+134671 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+134672 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 1 ms
+134673 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 6 ms
+194667 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+194668 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+194670 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 2 ms
+194671 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+194673 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 2 ms
+194674 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 7 ms
+254667 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+254667 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+254669 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 2 ms
+254670 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+254672 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 1 ms
+254672 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 5 ms
+314667 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+314668 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+314670 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 2 ms
+314671 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+314672 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 1 ms
+314672 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 5 ms
+334392 [http-nio-8080-exec-6] INFO  c.example.task14.config.TimeAspect – Method: saveUser from ClientService, Time: 121 ms
+340208 [http-nio-8080-exec-7] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 8 ms
+340208 [http-nio-8080-exec-7] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 8 ms
+350521 [http-nio-8080-exec-10] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 1 ms
+350521 [http-nio-8080-exec-10] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 1 ms
+361845 [http-nio-8080-exec-4] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 2 ms
+361846 [http-nio-8080-exec-4] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 3 ms
+361951 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver – Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.example.task14.model.User com.example.task14.controller.UserController.createUser(com.example.task14.model.User)]
+374666 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+374667 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+374668 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 1 ms
+374670 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+374671 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 1 ms
+374672 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 6 ms
+434667 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+434668 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+434670 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 2 ms
+434671 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+434673 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 2 ms
+434673 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 6 ms
+445828 [http-nio-8080-exec-7] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 3 ms
+445828 [http-nio-8080-exec-7] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 4 ms
+450640 [http-nio-8080-exec-9] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 1 ms
+450640 [http-nio-8080-exec-9] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 1 ms
+453904 [http-nio-8080-exec-2] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 2 ms
+453904 [http-nio-8080-exec-2] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 2 ms
+459391 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+459392 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl – HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+459404 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+459418 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+742  [main] INFO  c.example.task14.Task14Application – Starting Task14Application using Java 19.0.1 with PID 10208 (C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24\task23-24\target\classes started by kkudl in C:\Users\kkudl\IdeaProjects\Java-Tastks\task-9-24\task23-24)
+744  [main] INFO  c.example.task14.Task14Application – No active profile set, falling back to 1 default profile: "default"
+1680 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+1738 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2328 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat initialized with port(s): 8080 (http)
+2335 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Initializing ProtocolHandler ["http-nio-8080"]
+2336 [main] INFO  o.a.catalina.core.StandardService – Starting service [Tomcat]
+2336 [main] INFO  o.a.catalina.core.StandardEngine – Starting Servlet engine: [Apache Tomcat/10.1.7]
+2415 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring embedded WebApplicationContext
+2416 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext – Root WebApplicationContext: initialization completed in 1632 ms
+2665 [main] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+2719 [main] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.1.7.Final
+2985 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+3147 [main] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7c47e077
+3149 [main] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+3167 [main] INFO  SQL dialect – HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+3169 [main] WARN  org.hibernate.orm.deprecation – HHH90000026: PostgreSQL95Dialect has been deprecated; use org.hibernate.dialect.PostgreSQLDialect instead
+4002 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+4002 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – отношение "post" не существует, пропускается
+4004 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+4004 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "clients" не существует, пропускается
+4004 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+4005 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "post" не существует, пропускается
+4005 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – SQL Warning Code: 0, SQLState: 00000
+4005 [main] WARN  o.h.e.jdbc.spi.SqlExceptionHelper – таблица "users" не существует, пропускается
+4047 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+4055 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+4504 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+4621 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page: class path resource [static/index.html]
+4889 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver – Exposing 1 endpoint(s) beneath base path '/actuator'
+4938 [main] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1851f19f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33f3ebfc, org.springframework.security.web.context.SecurityContextHolderFilter@2898c70d, org.springframework.security.web.header.HeaderWriterFilter@2b71a12e, org.springframework.security.web.authentication.logout.LogoutFilter@68a1bb31, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5dcec8e9, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@507e3e77, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5cb3cfef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64a00fe0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3aebdb4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@eb77241, org.springframework.security.web.access.ExceptionTranslationFilter@3b446d7, org.springframework.security.web.access.intercept.AuthorizationFilter@7de2c19c]
+5248 [main] INFO  o.a.coyote.http11.Http11NioProtocol – Starting ProtocolHandler ["http-nio-8080"]
+5268 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer – Tomcat started on port(s): 8080 (http) with context path ''
+5283 [main] INFO  c.example.task14.Task14Application – Started Task14Application in 4.983 seconds (process running for 6.104)
+5649 [RMI TCP Connection(3)-192.168.0.27] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] – Initializing Spring DispatcherServlet 'dispatcherServlet'
+5649 [RMI TCP Connection(3)-192.168.0.27] INFO  o.s.web.servlet.DispatcherServlet – Initializing Servlet 'dispatcherServlet'
+5651 [RMI TCP Connection(3)-192.168.0.27] INFO  o.s.web.servlet.DispatcherServlet – Completed initialization in 2 ms
+14547 [http-nio-8080-exec-1] INFO  c.example.task14.config.TimeAspect – Method: saveUser from ClientService, Time: 242 ms
+18467 [http-nio-8080-exec-2] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 32 ms
+18467 [http-nio-8080-exec-2] INFO  c.example.task14.config.TimeAspect – Method: loadUserByUsername from ClientService, Time: 32 ms
+31531 [scheduling-1] INFO  c.e.task14.service.BackupService – Backup started
+31534 [scheduling-1] INFO  c.e.task14.service.UserService – Finding all users
+31541 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from UserService, Time: 7 ms
+31543 [scheduling-1] INFO  c.e.task14.service.PostService – Find All
+31546 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: findAll from PostService, Time: 3 ms
+31547 [scheduling-1] INFO  c.example.task14.config.TimeAspect – Method: createBackupFiles from BackupService, Time: 16 ms
+70210 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+70210 [SpringApplicationShutdownHook] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl – HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+70227 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+70233 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
